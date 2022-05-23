@@ -10,8 +10,12 @@
     "declaration": true,
     "moduleResolution": "node",
     "module": "es2020",
-    "target": "esnext"
+    "target": "esnext",
+    "types": [
+      "node",
+      "jest",
+    ],
   },
   "include": ["src/**/*"],
-  "exclude": ["node_modules", "src/test", "dist"]
+  "exclude": ["node_modules", "dist"]
 }
